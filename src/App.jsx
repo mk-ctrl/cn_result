@@ -162,10 +162,10 @@ export default function App() {
           {(phase === 'idle' || phase === 'loading') && (
             <motion.div
               key="input"
-              initial={{ opacity: 0, y: 15 }}
+              initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.4, delay: 0.25 }}
+              transition={{ duration: 0.2 }}
             >
               <form onSubmit={handleSubmit} className="glass rounded-2xl p-6 gradient-border">
                 <label className="block text-xs font-medium text-text-secondary mb-2 tracking-wide uppercase">
