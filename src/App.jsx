@@ -260,7 +260,7 @@ export default function App() {
                   Next Step
                 </p>
                 <a
-                  href="https://chat.whatsapp.com/YOUR_LINK_HERE"
+                  href="https://chat.whatsapp.com/FcaSR3tRoIc8Nbq6hhG0p8?mode=gi_t"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-shimmer inline-flex items-center gap-2 w-full justify-center
