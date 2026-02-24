@@ -158,7 +158,7 @@ export default function App() {
         </motion.div>
 
         {/* Input Card */}
-        <AnimatePresence >
+        <AnimatePresence>
           {(phase === 'idle' || phase === 'loading') && (
             <motion.div
               key="input"
